@@ -1,4 +1,2 @@
-item.jaopca.coin.name=%s幣
-item.jaopca.gear.name=%s齒輪
-item.jaopca.plate.name=%s板
-item.jaopca.stick.name=%s桿
+tile.jaopca.fence.name=%s柵欄
+tile.jaopca.wall.name=%s牆

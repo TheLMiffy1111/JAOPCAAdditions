@@ -1,4 +1,4 @@
-item.jaopca.coin.name=%s Coin
-item.jaopca.gear.name=%s Gear
-item.jaopca.plate.name=%s Plate
-item.jaopca.stick.name=%s Rod
+tile.jaopca.fence.name=%s Fence
+tile.jaopca.wall.name=%s Wall
+
+tile.jaopca.glassHardened.name=Hardened %s Glass
