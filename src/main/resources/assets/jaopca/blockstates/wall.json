@@ -1,0 +1,69 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures" : {
+            "wall": "jaopca:blocks/block"
+        }
+    },
+    "variants": {
+        "up": {
+            "true": {
+                "submodel": {
+                    "post": {
+                        "model": "jaopca:wall_post_colored"
+                    }
+                }
+            },
+            "false": {}
+        },
+        "north": {
+            "true": {
+                "submodel": {
+                    "side0": {
+                        "model": "jaopca:wall_side_colored"
+                    }
+                }
+            },
+            "false": {}
+        },
+        "south": {
+            "true": {
+                "submodel": {
+                    "side1": {
+                        "model": "jaopca:wall_side_colored",
+                        "uvlock": true,
+                        "y": 180
+                    }
+                }
+            },
+            "false": {}
+        },
+        "west": {
+            "true": {
+                "submodel": {
+                    "side2": {
+                        "model": "jaopca:wall_side_colored",
+                        "uvlock": true,
+                        "y": -90
+                    }
+                }
+            },
+            "false": {}
+        },
+        "east": {
+            "true": {
+                "submodel": {
+                    "side3": {
+                        "model": "jaopca:wall_side_colored",
+                        "uvlock": true,
+                        "y": 90
+                    }
+                }
+            },
+            "false": {}
+        },
+        "inventory": [{
+            "model": "jaopca:wall_inventory_colored"
+        }]
+    }
+}

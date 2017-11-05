@@ -11,11 +11,11 @@ import thelm.jaopca.additions.modules.RegistryAdditions;
 		modid = JAOPCAAdditions.MOD_ID,
 		name = "JAOPCAAdditions",
 		version = JAOPCAAdditions.VERSION,
-		dependencies = "required-before:jaopca@[1.12-1.2.20,)"
+		dependencies = "required-before:jaopca@[1.12-2.2.4.53,)"
 		)
 public class JAOPCAAdditions {
 	public static final String MOD_ID = "jaopcaadditions";
-	public static final String VERSION = "1.12-1.2.2";
+	public static final String VERSION = "1.12.2-2.2.0.5";
 	@Instance(JAOPCAAdditions.MOD_ID)
 	public static JAOPCAAdditions core;
 	public static ModMetadata metadata;
@@ -27,9 +27,8 @@ public class JAOPCAAdditions {
 		metadata.modId = MOD_ID;
 		metadata.version = VERSION;
 		metadata.name = "Just A Ore Processing Compatibility Attempt: Additions";
-		metadata.credits = "Idea taken from Substratum";
 		metadata.authorList.add("TheLMiffy1111");
-		metadata.description = "A mod that aims to add common materials for ores.";
+		metadata.description = "A mod that adds additions and decorative blocks for ores.";
 
 		RegistryAdditions.preInit();
 	}
