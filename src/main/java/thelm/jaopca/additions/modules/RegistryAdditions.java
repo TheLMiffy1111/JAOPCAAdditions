@@ -1,13 +1,15 @@
 package thelm.jaopca.additions.modules;
 
+import net.minecraftforge.fml.common.Loader;
 import thelm.jaopca.api.JAOPCAApi;
 
 public class RegistryAdditions {
 	
 	public static void preInit() {
-		JAOPCAApi.registerModule(new ModuleCoin());
-		JAOPCAApi.registerModule(new ModuleGear());
-		JAOPCAApi.registerModule(new ModulePlate());
-		JAOPCAApi.registerModule(new ModuleStick());
+		JAOPCAApi.registerModule(new ModuleFence());
+		JAOPCAApi.registerModule(new ModuleWall());
+		if(Loader.isModLoaded("thermalfoundation")) {
+			JAOPCAApi.registerModule(new ModuleThermalFoundation());
+		}
 	}
 }
