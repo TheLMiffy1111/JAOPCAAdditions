@@ -77,9 +77,9 @@ public class ModuleThermalFoundation extends ModuleBase {
 	public void init() {
 		if(Loader.isModLoaded("thermalexpansion")) {
 			for(IOreEntry entry : JAOPCAApi.ENTRY_NAME_TO_ORES_MAP.get("glassHardened")) {
-				ModuleThermalExpansion.replaceInductionSmelterRecipe(4000, Utils.getOreStack("ingot", entry, 1), Utils.getOreStack("dustObsidian", 4), Utils.getOreStack("glassHardened", entry, 2), null, 0);
+				ModuleThermalExpansion.replaceInductionSmelterRecipe(4000, Utils.getOreStack("ingot", entry, 1), Utils.getOreStack("dustObsidian", 4), Utils.getOreStack("glassHardened", entry, 2), ItemStack.EMPTY, 0);
 				if(Utils.doesOreNameExist("dust"+entry.getOreName())) {
-					ModuleThermalExpansion.replaceInductionSmelterRecipe(4000, Utils.getOreStack("dust", entry, 1), Utils.getOreStack("dustObsidian", 4), Utils.getOreStack("glassHardened", entry, 2), null, 0);
+					ModuleThermalExpansion.replaceInductionSmelterRecipe(4000, Utils.getOreStack("dust", entry, 1), Utils.getOreStack("dustObsidian", 4), Utils.getOreStack("glassHardened", entry, 2), ItemStack.EMPTY, 0);
 				}
 			}
 		}
