@@ -51,7 +51,7 @@ repositories {
     }
 }
 
-version = "1.10.2-2.0.0.3"
+version = "1.10.2-2.0.1.7"
 group= "thelm.jaopca.additions"
 archivesBaseName = "JAOPCAAdditions"
 

@@ -1,0 +1,53 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "jaopca:stairs_colored",
+        "uvlock": true,
+        "textures" : {
+            "stairs": "jaopca:blocks/block"
+        }
+    },
+    "variants": {
+        "facing=east,half=bottom,shape=straight":  [{}],
+        "facing=west,half=bottom,shape=straight":  { "y": 180 },
+        "facing=south,half=bottom,shape=straight": { "y":  90 },
+        "facing=north,half=bottom,shape=straight": { "y": 270 },
+        "facing=east,half=bottom,shape=outer_right":  { "model": "jaopca:outer_stairs_colored" },
+        "facing=west,half=bottom,shape=outer_right":  { "model": "jaopca:outer_stairs_colored", "y": 180 },
+        "facing=south,half=bottom,shape=outer_right": { "model": "jaopca:outer_stairs_colored", "y":  90 },
+        "facing=north,half=bottom,shape=outer_right": { "model": "jaopca:outer_stairs_colored", "y": 270 },
+        "facing=east,half=bottom,shape=outer_left":  { "model": "jaopca:outer_stairs_colored", "y": 270 },
+        "facing=west,half=bottom,shape=outer_left":  { "model": "jaopca:outer_stairs_colored", "y":  90 },
+        "facing=south,half=bottom,shape=outer_left": { "model": "jaopca:outer_stairs_colored" },
+        "facing=north,half=bottom,shape=outer_left": { "model": "jaopca:outer_stairs_colored", "y": 180 },
+        "facing=east,half=bottom,shape=inner_right":  { "model": "jaopca:inner_stairs_colored" },
+        "facing=west,half=bottom,shape=inner_right":  { "model": "jaopca:inner_stairs_colored", "y": 180 },
+        "facing=south,half=bottom,shape=inner_right": { "model": "jaopca:inner_stairs_colored", "y":  90 },
+        "facing=north,half=bottom,shape=inner_right": { "model": "jaopca:inner_stairs_colored", "y": 270 },
+        "facing=east,half=bottom,shape=inner_left":  { "model": "jaopca:inner_stairs_colored", "y": 270 },
+        "facing=west,half=bottom,shape=inner_left":  { "model": "jaopca:inner_stairs_colored", "y":  90 },
+        "facing=south,half=bottom,shape=inner_left": { "model": "jaopca:inner_stairs_colored" },
+        "facing=north,half=bottom,shape=inner_left": { "model": "jaopca:inner_stairs_colored", "y": 180 },
+        "facing=east,half=top,shape=straight":  { "x": 180 },
+        "facing=west,half=top,shape=straight":  { "x": 180, "y": 180 },
+        "facing=south,half=top,shape=straight": { "x": 180, "y":  90 },
+        "facing=north,half=top,shape=straight": { "x": 180, "y": 270 },
+        "facing=east,half=top,shape=outer_right":  { "model": "jaopca:outer_stairs_colored", "x": 180, "y":  90 },
+        "facing=west,half=top,shape=outer_right":  { "model": "jaopca:outer_stairs_colored", "x": 180, "y": 270 },
+        "facing=south,half=top,shape=outer_right": { "model": "jaopca:outer_stairs_colored", "x": 180, "y": 180 },
+        "facing=north,half=top,shape=outer_right": { "model": "jaopca:outer_stairs_colored", "x": 180 },
+        "facing=east,half=top,shape=outer_left":  { "model": "jaopca:outer_stairs_colored", "x": 180 },
+        "facing=west,half=top,shape=outer_left":  { "model": "jaopca:outer_stairs_colored", "x": 180, "y": 180 },
+        "facing=south,half=top,shape=outer_left": { "model": "jaopca:outer_stairs_colored", "x": 180, "y":  90 },
+        "facing=north,half=top,shape=outer_left": { "model": "jaopca:outer_stairs_colored", "x": 180, "y": 270 },
+        "facing=east,half=top,shape=inner_right":  { "model": "jaopca:inner_stairs_colored", "x": 180, "y":  90 },
+        "facing=west,half=top,shape=inner_right":  { "model": "jaopca:inner_stairs_colored", "x": 180, "y": 270 },
+        "facing=south,half=top,shape=inner_right": { "model": "jaopca:inner_stairs_colored", "x": 180, "y": 180 },
+        "facing=north,half=top,shape=inner_right": { "model": "jaopca:inner_stairs_colored", "x": 180 },
+        "facing=east,half=top,shape=inner_left":  { "model": "jaopca:inner_stairs_colored", "x": 180 },
+        "facing=west,half=top,shape=inner_left":  { "model": "jaopca:inner_stairs_colored", "x": 180, "y": 180 },
+        "facing=south,half=top,shape=inner_left": { "model": "jaopca:inner_stairs_colored", "x": 180, "y":  90 },
+        "facing=north,half=top,shape=inner_left": { "model": "jaopca:inner_stairs_colored", "x": 180, "y": 270 },
+        "inventory": [{}]
+    }
+}

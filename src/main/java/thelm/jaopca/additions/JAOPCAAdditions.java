@@ -11,11 +11,11 @@ import thelm.jaopca.additions.modules.RegistryAdditions;
 		modid = JAOPCAAdditions.MOD_ID,
 		name = "JAOPCAAdditions",
 		version = JAOPCAAdditions.VERSION,
-		dependencies = "required-before:jaopca@[1.10.2-2.0.4.51,)"
+		dependencies = "required-after:jaopca@[1.10.2-2.0.6.79,)"
 		)
 public class JAOPCAAdditions {
 	public static final String MOD_ID = "jaopcaadditions";
-	public static final String VERSION = "1.10.2-2.0.0.3";
+	public static final String VERSION = "1.10.2-2.0.1.7";
 	@Instance(JAOPCAAdditions.MOD_ID)
 	public static JAOPCAAdditions core;
 	public static ModMetadata metadata;

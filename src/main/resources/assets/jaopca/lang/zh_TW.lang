@@ -1,2 +1,7 @@
 tile.jaopca.fence.name=%s柵欄
 tile.jaopca.wall.name=%s牆
+tile.jaopca.stairs.name=%s磚階梯
+tile.jaopca.slab.name=%s半磚
+tile.jaopca.doubleSlab.name=%s雙半磚
+
+tile.jaopca.glassHardened.name=硬化%s玻璃
