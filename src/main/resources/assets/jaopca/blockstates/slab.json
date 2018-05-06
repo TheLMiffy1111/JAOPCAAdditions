@@ -1,0 +1,19 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "jaopca:slab_colored",
+        "uvlock": true,
+        "textures" : {
+            "slab": "jaopca:blocks/block"
+        }
+    },
+    "variants": {
+        "half": {
+            "bottom": {},
+            "top": {
+                "x": 180
+            }
+        },
+        "inventory": [{}]
+    }
+}
